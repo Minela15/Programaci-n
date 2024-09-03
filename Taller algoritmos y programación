@@ -1,0 +1,33 @@
+#Proteje al cerdito
+
+def play():
+
+    user = input("Elije Como quieres protejer al cerdito: 'T' Crear trampa, 'M'para Matar al lobo, 'E' Para esconderse\n")
+
+    opciones = ('t', 'm', 'e')
+
+
+
+    if user == 'e':
+
+        print(" ¡¡PERDISTE!!, El lobo te encontro y Fuiste su cena ")
+
+        
+
+    
+
+    if user == 'm':
+
+        print(" El lobo ya no te molestará ")
+
+    
+
+    if user == 't':
+
+        print(" ¡¡PERDISTE!!, El lobo se escapo y te comio ")
+
+    
+
+
+
+play()
